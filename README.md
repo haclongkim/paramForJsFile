@@ -2,8 +2,10 @@
 
 You can passs params from php (or something) to external javascript file
 
+## Demo
+https://haclongkim.github.io/paramForJsFile/
 
-Example: 
+## Example: 
 ```php
 <script attr-param1="<?=$SERVER['REQUEST_TIME']?>" src="test1.js?param1=param-test1"></script>
 ```
