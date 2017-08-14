@@ -1,6 +1,13 @@
 # Passing parameters and Attributes to JavaScript files
 
+You can passs params from php (or something) to external javascript file
+
+
 Example: 
+```php
+<script attr-param1="<?=$SERVER['REQUEST_TIME']?>" src="test1.js?param1=param-test1"></script>
+```
+Or
 ```html
 <script attr-param1="attr-test1" src="test1.js?param1=param-test1"></script>
 ```
@@ -26,3 +33,5 @@ PaserCurrentFileJs.getValueParam(keyName)
 PaserCurrentFileJs.getValueAttribute("param1")
 return: "param-test1"
 ```
+
+
