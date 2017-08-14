@@ -1,3 +1,8 @@
+/*!
+ * Copyright (c) 2017 - https://github.com/haclongkim/paramForJsFile
+ * MIT licenses
+ * Author: haclongkim
+ */
 function PaserParamCurrentFileJs() {
   // Thanks for watching
 }
